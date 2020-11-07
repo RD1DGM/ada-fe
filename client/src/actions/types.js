@@ -1,0 +1,12 @@
+export const IS_LOADING = "IS_LOADING";
+export const HAS_ERRORS = "HAS_ERRORS";
+
+export const FETCH_NODES = "FETCH_NODES";
+export const FETCH_NODES_BY_ID = "FETCH_NODES_BY_ID";
+export const FETCH_VARIABLES = "FETCH_VARIABLES";
+
+export const SELECT_NODE = "SELECT_NODE";
+
+export const SEARCH_ANSWERS = "SEARCH_ANSWERS";
+export const SEARCH_INPUT = "SEARCH_INPUT";
+export const PREV_SEARCHED_INPUT = "PREV_SEARCHED_INPUT";

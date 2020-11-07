@@ -1,0 +1,26 @@
+.main_content_container {
+  width: 90vw;
+  background-color: hsl(210, 11%, 88%);
+  grid-area: content;
+  display: grid;
+  grid-template-rows: min-content;
+  align-items: center;
+  justify-items: center;
+
+  .error_section,
+  .no_data_section {
+    display: grid;
+    margin-top: 19rem;
+    font-size: 7rem;
+    font-style: italic;
+    font-weight: bolder;
+    color: hsl(0, 0%, 50%);
+    opacity: 0.15;
+  }
+
+  .no_data_section::after {
+    content: "(click any titles on the sidebar)";
+    font-size: 2rem;
+    transform: translate(15rem, -1rem);
+  }
+}

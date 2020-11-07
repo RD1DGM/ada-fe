@@ -1,0 +1,11 @@
+// Main Component
+@import "./components/App.scss";
+
+// Sidebar Component
+@import "./components/sidebar";
+@import "./components/titles";
+@import "./components/searchInput";
+
+// Detail Component
+@import "./components/mainContent";
+@import "./components/contentCards";

@@ -16,13 +16,13 @@ As for the code, don't feel bound by what is already there. Add functions and da
 
 The most important thing is to make your solution work somehow. If you then can clean it up and make it right, all the better. As for the code, don't feel bound by what is already there. Add functions and datastructures as you see fit, and delete old code with abandon if you don't find it helpful (as long as the unit tests pass). **If you are unsure on whether to develop enterprise-edition software to show us that you know how to build serious projects please keep in mind that we at Ada strongly value readability and simplicity.**
 
-## The Challenges 
+## The Challenges
 
 You are working on a database-backed web-app in which you have to fix bugs and add new functionality (sounds familiar?). We have provided you with a functional backend and database that we need you to build a frontend for. Success here is in building something functional that aligns with the design direction provided while giving us an understanding of the choices you make as you build your solution.
 
 ### Designs
 
-Your application should look something like the sketch below. 
+Your application should look something like the sketch below.
 
 ![58CB6FC5-1001-43C2-A8DD-729C5CF0258B](resources/sketch.png)
 
@@ -44,7 +44,7 @@ Build an interactive frontend component that works with the /search end point an
 
 In the detail view, make sure to **highlight** the search terms in the text if it's in the answer's content.
 
-*Users may have input unsafe strings to try to expose XSS vulnerabilities in our application. Make sure to render highlights and other strings in a safe and secure way.*
+_Users may have input unsafe strings to try to expose XSS vulnerabilities in our application. Make sure to render highlights and other strings in a safe and secure way._
 
 ### Challenge 3
 
@@ -65,6 +65,7 @@ When displaying a variable, make sure to show that it's a variable value. In the
 [create react app](https://reactjs.org/docs/create-a-new-react-app.html)
 
 ### API Setup and Docs
+
 It should be simple to get the API that will get your web app data up and running:
 
 1. `yarn`
@@ -110,7 +111,6 @@ returns a nodes' connections to children nodes
 #### `POST /nodes/search`
 
 returns search content related to a node
-
 
 ```
 `POST {query: "test"}`

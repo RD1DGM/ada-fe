@@ -1,0 +1,11 @@
+.sidebar_container {
+  background-color: hsl(211, 22%, 26%);
+  grid-area: sidebar;
+  display: grid;
+  grid-template-areas:
+    "search"
+    "titles";
+  grid-template-rows: 0.2fr 0.8fr;
+  color: hsl(0, 0%, 100%);
+  filter: drop-shadow(-1px 0px 6px hsl(0, 0%, 0%));
+}
