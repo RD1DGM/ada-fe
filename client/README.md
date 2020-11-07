@@ -2,11 +2,11 @@
 
 In the project directory, you can run:
 
-### `yarn`
+### > `yarn`
 
 then
 
-### `yarn start`
+### > `npm start`
 
 
 ## Challenges
